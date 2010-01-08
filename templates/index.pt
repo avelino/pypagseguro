@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Minha loja modelo</title>
+  </head>
+  <body>
+<h1>Loja modelo</h1>
+
+<form action="">
+  <label for="escolha-bola">
+    <input type="radio" name="id" value="1" selected="selected" />
+    Bola quadrada
+  </label>
+  <br />
+
+  <label for="escolha-carrinho">
+    <input type="radio" name="id" value="2" selected="selected" />
+    Carrinho HotWeels
+  </label>
+  <br />
+
+  <label for="escolha-boneca">
+    <input  type="radio" name="id" value="3" selected="selected" />
+    Boneca Barbicha
+  </label>
+  <br />
+
+  <input type="submit" name="s" value="escolher" />
+</form>
+
+<?=carrinho?>
+
+</body>
+</html>
