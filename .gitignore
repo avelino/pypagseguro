@@ -5,6 +5,6 @@ docs/.build
 docs/_build
 build/
 dist/
-pycorreios.egg-info/
+*.egg-info/
 env/
 .pypirc
