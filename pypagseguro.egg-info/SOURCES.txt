@@ -1,0 +1,13 @@
+README
+setup.py
+pypagseguro/__init__.py
+pypagseguro/pagseguro.py
+pypagseguro/pagsegurotest.py
+pypagseguro/retorno.py
+pypagseguro/retornotest.py
+pypagseguro/util.py
+pypagseguro/utiltest.py
+pypagseguro.egg-info/PKG-INFO
+pypagseguro.egg-info/SOURCES.txt
+pypagseguro.egg-info/dependency_links.txt
+pypagseguro.egg-info/top_level.txt

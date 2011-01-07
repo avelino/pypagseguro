@@ -1,0 +1,37 @@
+Metadata-Version: 1.0
+Name: pypagseguro
+Version: 1.0
+Summary: API for PagSeguro in Python
+Home-page: https://github.com/avelino/pypagseguro/
+Author: Thiago Avelino
+Author-email: thiagoavelinoster@gmail.com
+License: MIT
+Description: API Pagseguro
+        ============
+        
+        Installation
+        ============
+        If you have _setuptools_ you can use
+        $ easy_install -U pypagseguro
+        Otherwise, you can download the source from [GitHub][git] and run
+        $ python setup.py install
+        
+        [git]: https://github.com/avelino/pypagseguro "pyPagSeguro"
+        
+        Examples
+        ========
+        Some simple examples of what pyPagSeguro code looks like:
+        # -*- coding: utf-8 -*-
+        from pagseguropy import *
+        carrinho = Pagseguro(email_cobranca='pagseguro@visie.com.br',tipo='CP')
+        carrinho.item(id=1, descr='Um produto de exemplo', quant=5, valor=10)
+        carrinho.item(id=2, descr='Outro produto de exemplo', quant=2, valor=100)
+        print carrinho.mostra()
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

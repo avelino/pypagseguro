@@ -1,0 +1,10 @@
+*.pyc
+.*.swp
+*.egg
+docs/.build
+docs/_build
+build/
+dist/
+pycorreios.egg-info/
+env/
+.pypirc
